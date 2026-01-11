@@ -4,7 +4,7 @@ import Button from './components/Button/Button';
 import Modal from './components/Modal/Modal';
 
 function App() {
-    const [modalActive, setModalActive] = useState(true);
+    const [modalActive, setModalActive] = useState(false);
 
     return (
         <div className="app-container">
